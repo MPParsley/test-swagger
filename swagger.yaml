@@ -341,10 +341,16 @@ paths:
             type: string
           description: Institution from which you want to retrieve data
           examples:
+            archiefgent:
+              value: objecten van Archief Gent
             dmg:
-              value: dmg
+              value: objecten van Design Museum Gent
+            hva:
+              value: objecten van Het Huis van Alijn (Gent)
+            industriemuseum:
+              value: objecten van Industriemuseum
             stam:
-              value: stam
+              value: objecten van STAM (Gent)
         - in: path
           name: adlibdatabase
           required: true
